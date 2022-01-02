@@ -1,0 +1,21 @@
+{
+  "name": "TDD",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "jest": "^27.4.5",
+    "mongoose": "^6.1.4",
+    "node-mocks-http": "^1.11.0"
+  },
+  "devDependencies": {
+    "supertest": "^6.1.6"
+  }
+}
