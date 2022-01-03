@@ -8,4 +8,10 @@ router.post("/", TDDController.createTDD);
 
 router.get("/", TDDController.getTDD);
 
+router.get("/:tddId", TDDController.getTddById);
+
+router.put("/:tddId", TDDController.updateTddById);
+
+router.delete("/:tddId", TDDController.deleteTddById);
+
 module.exports = router;
